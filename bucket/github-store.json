@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/OpenHub-Store/GitHub-Store/releases/download/1.6.2/GitHub-Store-1.6.2.zip",
-            "hash": "F33CEEB67AF3AF1AD0C44D103BE0FFC4DEBC8E57222E3956B407D6483AD9F9D3"
+            "hash": "f33ceeb67af3af1ad0c44d103be0ffc4debc8e57222e3956b407d6483ad9f9d3"
         }
     },
     "extract_dir": "GitHub-Store",
