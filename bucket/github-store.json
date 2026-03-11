@@ -12,6 +12,7 @@
             "hash": "F33CEEB67AF3AF1AD0C44D103BE0FFC4DEBC8E57222E3956B407D6483AD9F9D3"
         }
     },
+    "extract_dir": "GitHub-Store",
     "bin": "GitHub-Store.exe",
     "checkver": {
         "url": "https://github.com/OpenHub-Store/GitHub-Store/releases/latest",
