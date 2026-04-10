@@ -1,5 +1,5 @@
 {
-    "version": "1.6.2",
+    "version": "1.7.0",
     "description": "Cross-platform app store for GitHub releases",
     "homepage": "https://github-store.org/",
     "license": {
@@ -8,20 +8,23 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/OpenHub-Store/GitHub-Store/releases/download/1.6.2/GitHub-Store-1.6.2.zip",
-            "hash": "F9B1C6BBEFE5B454C91D34CEE36019231245B7FE06305E91750A4D3244C87F4D"
+            "url": "https://github.com/OpenHub-Store/GitHub-Store/releases/download/1.7.0/GitHub-Store-1.7.0.msi",
+            "hash": "515ba73e25e6293a9fea07861c7f1b271838e91f1be43c4bf96864ab5657e284"
         }
     },
-    "extract_dir": "GitHub-Store",
-    "bin": "GitHub-Store.exe",
+    "shortcuts": [
+        [
+            "GitHub-Store/GitHub-Store.exe",
+            "GitHub Store"
+        ]
+    ],
     "checkver": {
-        "url": "https://github.com/OpenHub-Store/GitHub-Store/releases/latest",
-        "regex": "GitHub-Store-([\\d.]+)\\.zip"
+        "url": "https://github.com/OpenHub-Store/GitHub-Store"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/OpenHub-Store/GitHub-Store/releases/download/$version/GitHub-Store-$version.zip"
+                "url": "https://github.com/OpenHub-Store/GitHub-Store/releases/download/$version/GitHub-Store-$version.msi"
             }
         }
     }
